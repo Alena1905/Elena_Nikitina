@@ -1,0 +1,24 @@
+table{
+    border-collapse: collapse;
+    border-style: dotted;
+    border-bottom-width: 3px;
+  
+}
+
+tr,td{
+    border-style: dotted;
+    border-width: 3px; 
+}
+tr:nth-of-type(1){
+    background-color: dimgray;
+}
+tr:nth-of-type(3){
+    background-color: rgb(202, 198, 198);
+
+}
+tr:nth-of-type(5){
+    background-color: rgb(202, 198, 198);
+}
+tr:hover {
+background-color: rgb(109, 212, 109);
+}

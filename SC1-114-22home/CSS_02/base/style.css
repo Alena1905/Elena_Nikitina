@@ -1,0 +1,38 @@
+.a{
+    height: 195px;
+    width: 143px;
+    background: url(/SC1-114-22home/CSS_02/cards.png) no-repeat 4px -1583px ;
+    float: left;
+}
+.b{
+    height: 195px;
+    width: 143px;
+    background: url(/SC1-114-22home/CSS_02/cards.png) no-repeat 4px -1792px ;
+    float: left;
+    margin-left: -99px;
+    margin-top: 50px;
+}
+.c{
+    height: 195px;
+    width: 143px;
+    background: url(/SC1-114-22home/CSS_02/cards.png) no-repeat -289px -1394px ;
+    float: left;
+    margin-left: -99px;
+    margin-top: 100px;
+}
+.d{
+    height: 195px;
+    width: 143px;
+    background: url(/SC1-114-22home/CSS_02/cards.png) no-repeat -140px -2188px ;
+    float: left;
+    margin-left: -99px;
+    margin-top: 150px;
+}
+.e{
+    height: 195px;
+    width: 143px;
+    background: url(/SC1-114-22home/CSS_02/cards.png) no-repeat 4px -2387px ;
+    float: left;
+    margin-left: -99px;
+    margin-top: 200px;
+}

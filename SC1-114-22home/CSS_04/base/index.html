@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            border-style: solid  ;
+            width: 700px;
+
+        }
+        .block{
+            position: absolute;
+        }
+ 
+      
+        .word span{
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .word:hover span{
+            opacity: 1;
+            top: -50px;
+        }
+        .pdf span{
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .pdf:hover span{
+            opacity: 1;
+            top: -50px;
+        }
+        .arhiv span{
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .arhiv:hover span{
+            opacity: 1;
+            top: -50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Форматы файлов</h2>
+    <div>
+    <div>
+        <p>
+            Doc или doc (от аглийского <img src="strelka.png"><a href="strelka.png">Document</a>)
+             расширение имени файлов, представляющих текст, с разметкой или без. расширение doc часто использовалось
+             для обозначения простых текстовых файлов без формирования, однако позже стало использоваться для 
+             двоичных форматов с разметкой. <br>
+             <img src="word.jfif"><a href="word.jfif">Document MS Word</a>
+        </p>
+    </div>
+    <div>
+        <p>
+            Portable Document Format (<img src="pdf.png"><a href="pdf.png">PDF</a> )- межплатформенный формат 
+            электронных документов, разработанный Adobe
+            Sistems c использованием ряда возможностьей языка Postscript. <br>
+            <img src="pdf.png"><a href="pdf.png">Document PDF</a>
+        </p>
+    </div>
+    <div>
+        <p>
+            Zip популярный формат сжатия данных и архивации файлов. Файл в этом формате имеет расширение 
+            <img src="arhiv.gif"><a href="arhiv.gif">zip</a> и хранит в сжатом или несжатом виде один или 
+            несколько файлов, которые можно из него извлечь путем распоковки.
+            <img src="arhiv.gif"><a href="arhiv.gif">Архив</a>
+
+        </p>
+    </div>
+</div>
+    <div class="block"> Это список файлов
+    <ul>
+        <li><a class="word" href="word.jfif">Document MS Word <span><img src="word.jfif" alt="" width="30">
+        </span></a> </li>
+        <li><a class="pdf" href="pdf.png">Document PDF<span><img src="pdf.png" alt="" width="30">
+        </span></a></li>
+        <li><a class="arhiv" href="arhiv.gif">Архив<span><img src="arhiv.gif" alt="" width="30">
+        </span></a></li>
+    </ul></div>
+    
+</body>
+</html>
